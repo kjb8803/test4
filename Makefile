@@ -1,0 +1,8 @@
+test_exe : test.o
+  g++ -o test_exe test.o
+
+test.o : test.c
+  g++ -c -o test.o test.cpp
+  
+clean :
+  rm *.o test_exe
