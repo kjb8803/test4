@@ -5,4 +5,4 @@ test.o : test.c
   g++ -c -o test.o test.cpp
   
 clean :
-  rm *.o test_exe
+  rm test.o test_exe
