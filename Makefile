@@ -4,5 +4,5 @@ test_exe : test.o
 test.o : test.cpp
 	g++ -o test.o test.cpp
   
-clean :
+clean : test_exe
 	rm test.o test_exe
