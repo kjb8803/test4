@@ -1,21 +1,11 @@
 #include <stdio.h>
-
-#include <windows.h>
-
-
+#include <signal.h>
 
 int main()
-
 {
-
   char *p = new char[8];
-
   printf("print ok 1\n");
-
-  system("pause");
-
-  
+  pause();
 
   return 0;
-
 }
