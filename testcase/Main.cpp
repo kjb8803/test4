@@ -2,7 +2,7 @@
 #include <cppunit/extensions/TestFactoryRegistry.h>
 #include <cppunit/ui/text/TestRunner.h>
 
-int _tmain(int argc, _TCHAR* argv[])
+int _tmain()
 {
     CPPUNIT_NS::TextUi::TestRunner runner;
     CPPUNIT_NS::Test* suite = CPPUNIT_NS::TestFactoryRegistry::getRegistry().makeTest();
