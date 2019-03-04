@@ -9,7 +9,10 @@ class calc
   int add(int x, int y);
 };
 
-int add(int x, int y)
+void calc::calc(){}
+void calc::~calc(){}
+
+int calc::add(int x, int y)
 {
   return (x+y);
 }
