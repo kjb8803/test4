@@ -1,5 +1,5 @@
 calctest_exe : calctest.o Main.o
-	g++ -o calctest_exe calctest.o Main.o
+	g++ -lcppunit -o calctest_exe calctest.o Main.o
 
 Main.o : Main.cpp
 	g++ -c Main.cpp
