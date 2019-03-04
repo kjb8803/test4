@@ -23,12 +23,12 @@ int main()
   {
     printf("print ok 7\n");
     j = add(2,2+i);
-    printf("result = %d",j);
+    printf("result = %d\n",j);
   }else
   {
     printf("print not ok 7");
     j = add(1,2);
-    printf("result = %d",j);
+    printf("result = %d\n",j);
   }
   
   pause();
