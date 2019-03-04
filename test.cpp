@@ -1,11 +1,16 @@
 #include <stdio.h>
 #include <unistd.h>
-#include <window.h>
 
 int main()
 {
   char *p = new char[8];
-  printf("print ok 1\n");
+  int i = 3;
+  
+  if(i == 3)
+    printf("print ok\n");
+  else
+    printf("print not ok");
+  
   pause();
 
   return 0;
