@@ -1,8 +1,8 @@
-testcalc_exe : testcalc.o
-	g++ -o testcalc_exe testcalc.o
+calctest_exe : calctest.o
+	g++ -o calctest_exe calctest.o
 
-testcalc.o : testcalc.cpp
-	g++ -c testcalc.cpp
+calctest.o : calctest.cpp
+	g++ -c calctest.cpp
 
-clean : testcalc_exe
-	rm testcalc.o testcalc_exe
+clean : calctest_exe
+	rm calctest.o calctest_exe
