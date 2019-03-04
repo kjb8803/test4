@@ -1,6 +1,6 @@
 #include <cppunit/extensions/HelperMacros.h>
 #include "StdAfx.h"
-#include "calc.cpp"
+#include "../calc.cpp"
 
 class calcTest : public CPPUNIT_NS::TestFixture
 {
