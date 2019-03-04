@@ -7,8 +7,8 @@ class calcTest : public CPPUNIT_NS::TestFixture
     CPPUNIT_TEST( testAdd );
     CPPUNIT_TEST_SUITE_END();
 public:
-    CalculatorTest(void);
-    ~CalculatorTest(void);
+    calcTest(void);
+    ~calcTest(void);
 
     void setUp();
     void tearDown();
@@ -18,14 +18,14 @@ private:
     calc m_calc;
 };
 
-CPPUNIT_TEST_SUITE_REGISTRATION( CalculatorTest );
+CPPUNIT_TEST_SUITE_REGISTRATION( calcTest );
 
-CalculatorTest::CalculatorTest(void){}
-CalculatorTest::~CalculatorTest(void){}
-void CalculatorTest::setUp(){}
-void CalculatorTest::tearDown(){}
+calcTest::calcTest(void){}
+calcTest::~calcTest(void){}
+void calcTest::setUp(){}
+void calcTest::tearDown(){}
 
-void CalculatorTest::testAdd()
+void calcTest::testAdd()
 {
     CPPUNIT_ASSERT(m_calc.add(4, 5) == 9);
 }
