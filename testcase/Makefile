@@ -1,5 +1,5 @@
 calctest_rst : calctest.o Main.o
-	g++ -lcppunit -o calctest_rst calctest.o Main.o
+	g++ -lcppunit -fprofile-arcs -ftest-coverage -o calctest_rst calctest.o Main.o
 
 Main.o : Main.cpp
 	g++ -c Main.cpp
