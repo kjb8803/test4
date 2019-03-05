@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <unistd.h>
 
-using namespace std;
-
 class calc
 {
   public:
