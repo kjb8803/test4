@@ -1,4 +1,4 @@
-#include <cppunit/portability/Stream.h>
+#include <fstream>
 #include <cppunit/CompilerOutputter.h>
 #include <cppunit/extensions/TestFactoryRegistry.h>
 #include <cppunit/ui/text/TestRunner.h>
@@ -14,8 +14,8 @@ int main()
     runner.setOutputter( new CPPUNIT_NS::CompilerOutputter( &runner.result(), CPPUNIT_NS::stdCOut() ));
     bool wasSucessful = runner.run();
     
-    CPPUNIT_NS::ofstream xmlFileOut("cppTestResults.xml");
-    CPPUNIT_NS::XmlOutputter xmlOut(&runner, xmlFileOut);
+    std::ofstream xmlFileOut("cppTestResults.xml");
+    CPPUNIT_NS::XmlOutputter xmlOut(&runner.result(), xmlFileOut);
     xmlOut.write();
 
     return wasSucessful ? 0 : 1;
