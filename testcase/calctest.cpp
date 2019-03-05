@@ -28,6 +28,4 @@ void calcTest::tearDown(){}
 void calcTest::testAdd()
 {
     CPPUNIT_ASSERT(m_calc.add(4, 5) == 9);
-    CPPUNIT_ASSERT(m_calc.add(2, 1) == 3);
-    CPPUNIT_ASSERT(m_calc.add(10, 12) == 22);
 }
