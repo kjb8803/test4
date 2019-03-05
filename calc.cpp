@@ -37,7 +37,7 @@ int main()
     printf("result = %d\n",k);
   }
   
-  pause();
+  //pause();
 
   return 0;
 }
