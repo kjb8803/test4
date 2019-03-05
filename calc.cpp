@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <iostream.h>
 #include <unistd.h>
 
 class calc
@@ -27,12 +28,12 @@ int main()
   {
     printf("print ok 7\n");
     j.add(2,2+i);
-    printf("result = %d\n",j);
+    cout << "result = " << j << endl;
   }else
   {
     printf("print not ok 7");
     j.add(1,2);
-    printf("result = %d\n",j);
+    cout << "result = " << j << endl;
   }
   
   pause();
