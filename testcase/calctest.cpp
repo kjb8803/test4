@@ -1,5 +1,5 @@
 #include <cppunit/extensions/HelperMacros.h>
-#include "../calc.cpp"
+#include "../calc.h"
 
 class calcTest : public CPPUNIT_NS::TestFixture
 {
