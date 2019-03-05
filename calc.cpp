@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <iostream>
 #include <unistd.h>
 
 using namespace std;
@@ -20,7 +19,7 @@ int calc::add(int x, int y)
   return (x+y);
 }
 
-/*int main()
+int main()
 {
   char *p = new char[8];
   int i = 3,k;
@@ -41,4 +40,4 @@ int calc::add(int x, int y)
   pause();
 
   return 0;
-}*/
+}
