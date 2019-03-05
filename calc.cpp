@@ -20,7 +20,7 @@ int calc::add(int x, int y)
 int main()
 {
   char *p = new char[8];
-  int i = 3, 
+  int i = 3;
   calc j;
   
   if(i == 3)
