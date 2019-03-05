@@ -15,7 +15,7 @@ public:
     void testAdd();
 
 private:
-    calc m_calc;
+    calc m_calc; 
 };
 
 CPPUNIT_TEST_SUITE_REGISTRATION( calcTest );
