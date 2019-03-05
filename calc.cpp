@@ -1,5 +1,13 @@
 #include "calc.h"
 
+calc::calc(){}
+calc::~calc(){}
+
+int calc::add(int x, int y)
+{
+  return (x+y);
+}
+
 int main()
 {
   char *p = new char[8];
