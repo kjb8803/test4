@@ -1,5 +1,5 @@
 calctest_rst : calctest.o Main.o
-	g++ -lgcov -lcppunit -o calctest_rst calctest.o Main.o
+	g++ -lcppunit -o calctest_rst calctest.o Main.o -lgcov
 
 Main.o : Main.cpp
 	g++ -c Main.cpp
