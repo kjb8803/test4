@@ -20,7 +20,7 @@ int calc::add(int x, int y)
   return (x+y);
 }
 
-int main()
+/*int main()
 {
   char *p = new char[8];
   int i = 3,k;
@@ -41,4 +41,4 @@ int main()
   pause();
 
   return 0;
-}
+}*/
