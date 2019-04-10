@@ -1,12 +1,12 @@
 #include "calc.h"
 
-int main(int i, int k)
+int main(int argc, char *argv[])
 {
   //char *p = new char[8];
   int m;
   calc j;
   
-  m = j.add(i,k);
+  m = j.add(argv[0],argv[1]);
   printf("result = %d\n",m);
   
   //pause();
