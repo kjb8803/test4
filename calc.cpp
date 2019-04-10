@@ -6,7 +6,7 @@ int main()
   int i,k,m = 1;
   calc j;
 
-  while(m == 0)
+  while(m != 0)
   {
     scanf("%d %d",i,k);
     m = j.add(i,k);
