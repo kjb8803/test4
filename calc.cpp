@@ -6,7 +6,7 @@ int main(int argc, char *argv[])
   int m;
   calc j;
   
-  m = j.add(*argv[1],*argv[2]);
+  m = j.add(&argv[1],&argv[2]);
   printf("result = %d\n",m);
   
   //pause();
