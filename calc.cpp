@@ -1,17 +1,14 @@
 #include "calc.h"
 
-int main()
+int main(int i, int k)
 {
   //char *p = new char[8];
-  int i,k,m = 1;
+  int m;
   calc j;
-
-  while(m != 0)
-  {
-    scanf("%d %d",&i,&k);
-    m = j.add(i,k);
-    printf("result = %d\n",m);
-  }
+  
+  m = j.add(i,k);
+  printf("result = %d\n",m);
+  
   //pause();
-  return 0;
+  return m;
 }
