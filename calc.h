@@ -6,13 +6,14 @@ class calc
   public:
   calc();
   ~calc();
-  int add(int *x, int *y);
+  int add(int x, int y);
 };
 
 calc::calc(){}
 calc::~calc(){}
 
-int calc::add(int *x, int *y)
+int calc::add(int x, int y)
 {
-  return (&x+&y);
+  printf("x : %d, y : %d, z : %d\n",x,y,x+y);
+  return (x+y);
 }
