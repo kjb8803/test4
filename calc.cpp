@@ -10,5 +10,5 @@ int main(int argc, char *argv[])
   printf("result = %d\n",m);
   
   //pause();
-  return m;
+  return a;
 }
